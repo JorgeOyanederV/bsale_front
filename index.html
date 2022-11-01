@@ -9,7 +9,19 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="root">
+      <div style="background-color: red" class="navbar">
+        <i>Bsale Logo</i>
+        <div class="navbar__search">
+          <input type="text" />
+          <button>Buscar</button>
+        </div>
+        <nav id="main-nav" class="nav">
+          <a href="/shoppingcart">Cart Icon</a>
+        </nav>
+      </div>
+      <div id="main-page"></div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
